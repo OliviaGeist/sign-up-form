@@ -30,28 +30,41 @@
         <div class="formBox">
             <form action="">
                 <div class="userInputs">
+                    <h2>Let's do this!</h2>
                     <fieldset class="nameFields">
-                        <label for="firstName">FIRST NAME</label>
-                        <input type="text" id="firstName">
-                        <label for="lastName">LAST NAME</label>
-                        <input type="text" id="lastName">
+                        <div class="inputBlock">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName">
+                        </div>
+                        <div class="inputBlock">
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName">
+                        </div>
                     </fieldset>
                     <fieldset class="contactFields">
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email">
-                        <label for="phoneNumber">PHONE NUMBER</label>
-                        <input type="tel" id="phoneNumber">
+                        <div class="inputBlock">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="inputBlock">
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="tel" id="phoneNumber">
+                        </div>
                     </fieldset>
                     <fieldset class="passwordFields">
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password">
-                        <label for="passwordConfirm">CONFIRM PASSWORD</label>
-                        <input type="password" id="passwordConfirm">
+                        <div class="inputBlock">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password">
+                        </div>
+                        <div class="inputBlock">
+                            <label for="passwordConfirm">CONFIRM PASSWORD</label>
+                            <input type="password" id="passwordConfirm">
+                        </div>
                     </fieldset>
                 </div>
                 <button id="createAccount" type="submit">Create Account</button>
             </form>
-            <p>Already have an account? <a href="index.html">Log in</a></p>
+            <p class="logIn">Already have an account? <a href="index.html">Log in</a></p>
         </div>
     </div>
 </body>
